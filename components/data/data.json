@@ -1,0 +1,1731 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "favicon": "/logo/favicon.webp",
+      "logo_text": "MOTRIX",
+      "logo_subtext": "Automotive Engineering",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About",
+          "href": "/about"
+        },
+        {
+          "name": "Manufacturing & Capabilities",
+          "href": "/manufacturing-capabilities"
+        },
+        {
+          "name": "Products & Solutions",
+          "href": "/products-solutions"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Contact",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Enquire Now",
+      "button_link": "/enquire-now",
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu"
+    },
+    "Footer": {
+      "logo": "/logo/logo-w.webp",
+      "logo_text": "MOTRIX Automotive Engineering",
+      "description": "Driving innovation through advanced engineering and mobility solutions.",
+      "socials": [
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "facebook",
+          "aria_label": "Motrix on Facebook"
+        },
+        {
+          "name": "LinkedIn",
+          "href": "https://linkedin.com",
+          "icon": "linkedin",
+          "aria_label": "Motrix on LinkedIn"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com",
+          "icon": "instagram",
+          "aria_label": "Motrix on Instagram"
+        }
+      ],
+      "menu_title": "Main Menu",
+      "menu_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        },
+        {
+          "name": "Products & Solutions",
+          "href": "/products-solutions"
+        },
+        {
+          "name": "Manufacturing",
+          "href": "/manufacturing-capabilities"
+        }
+      ],
+      "contact_title": "Contact Us",
+      "contact_items": [
+        {
+          "icon": "phone",
+          "label": "Phone",
+          "text": "+100000000000",
+          "href": "tel:+100000000000"
+        },
+        {
+          "icon": "mail",
+          "label": "Email",
+          "text": "info@xyz.com",
+          "href": "mailto:info@xyz.com"
+        }
+      ],
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    },
+    "BackToTop": {
+      "aria_label": "Back to top of page"
+    }
+  },
+  "categories": {
+    "Automotive": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Motrix | Automotive Manufacturing & Engineering",
+              "pageName": "Home",
+              "metadata": {
+                "title": "Motrix | Built Today For A Smarter Tomorrow",
+                "description": "Motrix delivers advanced automotive manufacturing, precision engineered components and smart production solutions for a cleaner, smarter tomorrow."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ProjectsSection",
+                  "component": "Projects"
+                },
+                {
+                  "key": "ProductsSolutionsSection",
+                  "component": "ProductsSolutions"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog"
+                }
+              ]
+            },
+            "not_found": {
+              "code": "404",
+              "badge": "Page Not Found",
+              "title": "This Part Is Off The Line",
+              "description": "The page you are looking for doesn't exist or has been moved to another assembly line.",
+              "back_home": {
+                "text": "Back To Home",
+                "href": "/"
+              }
+            },
+            "about": {
+              "title": "About Us | Motrix",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "About Us | Motrix Automotive Engineering",
+                "description": "Learn how Motrix engineers cleaner, smarter mobility through precision manufacturing, robotics and decades of automotive expertise."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "PurposeSection",
+                  "component": "Purpose"
+                }
+              ]
+            },
+            "manufacturing_capabilities": {
+              "title": "Manufacturing & Capabilities | Motrix",
+              "pageName": "Manufacturing & Capabilities",
+              "metadata": {
+                "title": "Manufacturing & Capabilities | Motrix Automotive Engineering",
+                "description": "Explore Motrix manufacturing and engineering capabilities: robotic welding, precision machining, braking systems, gears and EV battery assembly."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ManufacturingCapabilitiesSection",
+                  "component": "ManufacturingCapabilities"
+                }
+              ]
+            },
+            "blog": {
+              "title": "Blog | Motrix",
+              "pageName": "Our Blog",
+              "metadata": {
+                "title": "Blog | Motrix Automotive Insights & Updates",
+                "description": "Latest insights, trends and updates from the world of automotive manufacturing, EV components and vehicle safety."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog"
+                }
+              ]
+            },
+            "blog_detail": {
+              "title": "Blogs Details | Motrix",
+              "pageName": "Blogs Details",
+              "metadata": {
+                "title": "Blogs Details | Motrix Automotive Engineering",
+                "description": "Read in-depth automotive engineering insights from Motrix."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogDetailSection",
+                  "component": "BlogDetail"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us | Motrix",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Contact Us | Motrix Automotive Engineering",
+                "description": "Get in touch with Motrix for quotes, partnerships and engineering support for your automotive manufacturing needs."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            },
+            "enquire_now": {
+              "title": "Enquire Now | Motrix",
+              "pageName": "Enquire Now",
+              "metadata": {
+                "title": "Enquire Now | Motrix Automotive Engineering",
+                "description": "Share your requirements with Motrix and our engineering team will get back to you with the right solutions for your business needs."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquireNowSection",
+                  "component": "EnquireNow"
+                }
+              ]
+            },
+            "manufacturing_capabilities_detail": {
+              "title": "Manufacturing & Capabilities Detail | Motrix",
+              "pageName": "Manufacturing & Capabilities Detail",
+              "metadata": {
+                "title": "Manufacturing & Capabilities Detail | Motrix Automotive Engineering",
+                "description": "In-depth overview of Motrix manufacturing processes, precision engineering, quality assurance and production capabilities."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ManufacturingCapabilitiesDetailSection",
+                  "component": "ManufacturingCapabilitiesDetail"
+                }
+              ]
+            },
+            "products_solutions": {
+              "title": "Products & Solutions | Motrix",
+              "pageName": "Products & Solutions",
+              "metadata": {
+                "title": "Products & Solutions | Motrix Automotive Engineering",
+                "description": "Powertrain components, chassis and safety solutions, precision engineered parts and EV systems built by Motrix."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ProductsSolutionsSection",
+                  "component": "ProductsSolutions"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "eyebrow": "Advanced Mobility Solutions",
+              "title_bold": "Built Today",
+              "title_light": [
+                "For A Smarter",
+                "Tomorrow"
+              ],
+              "description": "Precision-engineered automotive components that power performance, efficiency and a more sustainable future.",
+              "cta_text": "Explore Our Solutions",
+              "cta_link": "/solutions",
+              "scroll_text": "Scroll Down",
+              "image": "/hero/hero.webp",
+              "image_alt": "Orange robotic arms working on a silver car body shell on an automated assembly line"
+            },
+            "breadcrumb": {
+              "background_image": "/breadcrumb/breadcrumb.webp",
+              "background_alt": "Robotic arms working over car bodies in a modern automotive factory",
+              "items": [
+                {
+                  "name": "Home",
+                  "href": "/"
+                }
+              ]
+            },
+            "about": {
+              "eyebrow": "About Us",
+              "title_bold": "Engineering",
+              "title_light": [
+                "A Cleaner, Smarter",
+                "Tomorrow"
+              ],
+              "lead": "We design and manufacture advanced automotive components and solutions that drive performance, efficiency and a more sustainable future.",
+              "description": "With a strong focus on precision engineering, quality and innovation, we support the evolving needs of the global mobility industry.",
+              "button_text": "Learn More",
+              "button_link": "/about",
+              "image": "/about/about-banner.webp",
+              "image_alt": "Automated car assembly line with orange robots working on silver car bodies"
+            },
+            "purpose": {
+              "eyebrow": "Our Purpose",
+              "title_black_1": "Driven By",
+              "title_black_2": "Purpose.",
+              "title_orange_1": "Focused On",
+              "title_orange_2": "Progress.",
+              "description": "We believe in advancing mobility through innovative engineering, superior quality and sustainable practices that create long-term value.",
+              "image": "/about/purpose.webp",
+              "image_alt": "Motrix automotive engineer inspecting precision powertrain engine assembly",
+              "items": [
+                {
+                  "id": "mission",
+                  "number": "01.",
+                  "title": "Our Mission",
+                  "description": "To deliver reliable automotive solutions that enhance performance, ensure safety and support a smarter, more sustainable future of mobility."
+                },
+                {
+                  "id": "vision",
+                  "number": "02.",
+                  "title": "Our Vision",
+                  "description": "To be a global leader in advanced mobility solutions, recognized for innovation, engineering excellence and positive impact on people and the planet."
+                }
+              ]
+            },
+            "manufacturing_capabilities": {
+              "eyebrow": "Our Work",
+              "title_bold": "Real Projects",
+              "title_light": [
+                "Real Progress"
+              ],
+              "description": "We work on advanced manufacturing projects that drive performance, efficiency and a more sustainable future for the mobility industry.",
+              "button_text": "View Our Work",
+              "button_link": "/manufacturing-capabilities",
+              "homepage_count": 4,
+              "items": [
+                {
+                  "id": "automotive-structure",
+                  "title": "Automotive Structure Components",
+                  "category": "Body In White",
+                  "subtext": "Body | Chassis | Frame",
+                  "image": "/projects/1.webp",
+                  "alt": "Orange robotic arm spot welding automotive vehicle structure components with sparks",
+                  "slug": "advanced-manufacturing"
+                },
+                {
+                  "id": "powertrain-solutions",
+                  "title": "Powertrain Solutions",
+                  "category": "Powertrain",
+                  "subtext": "Transmission | Drivetrain",
+                  "image": "/projects/2.webp",
+                  "alt": "Precision engineered automotive powertrain transmission casing and components",
+                  "slug": "scalable-production"
+                },
+                {
+                  "id": "safety-performance",
+                  "title": "Safety & Performance Components",
+                  "category": "Braking Systems",
+                  "subtext": "Braking | Suspension | Control Systems",
+                  "image": "/projects/3.webp",
+                  "alt": "Orange high performance brake caliper mounted on drilled ventilated rotor",
+                  "slug": "quality-assurance"
+                },
+                {
+                  "id": "precision-engineered-parts",
+                  "title": "Precision Engineered Parts",
+                  "category": "Gears & Shafts",
+                  "subtext": "Gears | Shafts | Custom Components",
+                  "image": "/projects/4.webp",
+                  "alt": "Precision machined interlocking steel gears and shafts for automotive drive systems",
+                  "slug": "precision-engineering"
+                },
+                {
+                  "id": "cnc-machining",
+                  "title": "High-Speed CNC Machining",
+                  "category": "Aluminium Parts",
+                  "subtext": "Milling | Turning | Rapid Tooling",
+                  "image": "/projects/5.webp",
+                  "alt": "High-speed CNC machine precision milling an aluminium automotive component",
+                  "slug": "advanced-automation"
+                },
+                {
+                  "id": "ev-battery",
+                  "title": "EV Battery Pack Assembly",
+                  "category": "Electric Mobility",
+                  "subtext": "Modules | Thermal Management | Pack Housing",
+                  "image": "/projects/6.webp",
+                  "alt": "Electric vehicle battery modules on automated precision assembly line",
+                  "slug": "end-to-end-capabilities"
+                }
+              ]
+            },
+            "manufacturing_capabilities_detail": {
+              "sidebar_title": "Manufacturing Capabilities",
+              "capabilities_list": [
+                {
+                  "name": "Advanced Manufacturing",
+                  "slug": "advanced-manufacturing"
+                },
+                {
+                  "name": "Precision Engineering",
+                  "slug": "precision-engineering"
+                },
+                {
+                  "name": "Quality Assurance",
+                  "slug": "quality-assurance"
+                },
+                {
+                  "name": "Scalable Production",
+                  "slug": "scalable-production"
+                },
+                {
+                  "name": "Advanced Automation",
+                  "slug": "advanced-automation"
+                },
+                {
+                  "name": "End-to-End Capabilities",
+                  "slug": "end-to-end-capabilities"
+                }
+              ],
+              "items": {
+                "precision-engineering": {
+                  "slug": "precision-engineering",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Precision",
+                  "title_orange": "Engineering",
+                  "hero_image": "/manufacturing-capabilities/hero.webp",
+                  "hero_alt": "Precision CNC milling center actively machining complex aluminium automotive component",
+                  "intro": "We deliver high-accuracy machining and quality control systems for components that meet global standards. Our precision engineering capabilities ensure consistent quality, tight tolerances and superior performance across industries.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/mid-1.webp",
+                      "alt": "High precision machined aluminium engine and transmission casing components"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/mid-2.webp",
+                      "alt": "Inside a high-speed CNC lathe turning machine precision machining steel drive shaft"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Precision Engineering",
+                    "description": "Our precision engineering processes are designed to deliver reliable, high-quality components with exceptional accuracy. We combine advanced machinery, skilled expertise and strict quality controls to ensure every part performs to the highest standards.",
+                    "points": [
+                      "High-accuracy machining",
+                      "Consistent quality output",
+                      "Tight tolerances and precision control",
+                      "Advanced measurement systems",
+                      "Wide material compatibility",
+                      "Components that meet global standards"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "From design to final production, we follow a structured process to ensure precision, quality and efficiency at every stage.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Design & Engineering",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Precision Machining",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Quality Inspection",
+                        "icon": "clipboard"
+                      },
+                      {
+                        "number": "04",
+                        "title": "Final Approval",
+                        "icon": "shield"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Our commitment to precision engineering means every component is manufactured with accuracy, durability and performance in mind. We adhere to strict quality standards and continuous improvement to deliver components you can rely on.",
+                    "points": [
+                      "All components are manufactured with high precision and tight tolerances.",
+                      "Rigorous quality checks at every stage of production.",
+                      "Advanced equipment and skilled experts ensure consistent output.",
+                      "Delivering reliable components that meet global industry standards."
+                    ]
+                  }
+                },
+                "advanced-manufacturing": {
+                  "slug": "advanced-manufacturing",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Advanced",
+                  "title_orange": "Manufacturing",
+                  "hero_image": "/projects/1.webp",
+                  "hero_alt": "Robotic welding automation on automotive vehicle body in white",
+                  "intro": "Pioneering robotic automation, laser welding and multi-material body assembly for lightweight and ultra-rigid vehicular structures.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/adv-mfg-1.webp",
+                      "alt": "Advanced robotic welding arms assembling chassis frame"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/adv-mfg-2.webp",
+                      "alt": "Smart automated assembly cell for body in white structures"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Advanced Manufacturing",
+                    "description": "Our smart robotic facilities combine speed, repeatable micron-level accuracy and sustainable production practices for global automotive leaders.",
+                    "points": [
+                      "Automated robotic spot and laser welding",
+                      "Lightweight multi-material bonding",
+                      "High throughput production lines",
+                      "Comprehensive structural fatigue testing",
+                      "Seamless CAD/CAM digital twin integration",
+                      "Zero-defect ISO 9001 certified protocols"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "From robotic fixture design to laser inspection, every assembly undergoes precision verification.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Tooling & Fixtures",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Robotic Assembly",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Laser Metrology",
+                        "icon": "shield"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Engineered for maximum crashworthiness, optimal vehicle dynamics and rapid time-to-market.",
+                    "points": [
+                      "Micron-accurate dimensional tolerances across complex assemblies.",
+                      "100% non-destructive weld seam inspection.",
+                      "Lean manufacturing principles reducing lead time by 35%.",
+                      "Full compliance with international automotive crash safety standards."
+                    ]
+                  }
+                },
+                "quality-assurance": {
+                  "slug": "quality-assurance",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Quality",
+                  "title_orange": "Assurance",
+                  "hero_image": "/projects/3.webp",
+                  "hero_alt": "Braking system precision metrology and quality inspection",
+                  "intro": "World-class coordinate measuring machines (CMM), optical scanning and non-destructive testing ensuring zero defects in mission-critical automotive systems.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/qa-1.webp",
+                      "alt": "CMM 3D coordinate inspection probe with laser scanning measurement"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/qa-2.webp",
+                      "alt": "Automotive optical surface roughness and micro-tolerance inspection"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Quality Assurance",
+                    "description": "Every component that leaves our facility has been thoroughly verified against demanding OEM specifications.",
+                    "points": [
+                      "Sub-micron 3D CMM coordinate inspection",
+                      "High-frequency eddy current crack detection",
+                      "Automated optical defect recognition",
+                      "Dynamic balance and vibration analysis",
+                      "Complete traceability via serialized laser QR codes",
+                      "IATF 16949 compliant quality assurance system"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "A multi-barrier quality gate methodology that catches anomalies before assembly.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Raw Material Audit",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "In-Process Gauging",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "3D CMM Verification",
+                        "icon": "shield"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Zero-defect delivery backed by comprehensive test certificates and lot traceability.",
+                    "points": [
+                      "Every batch accompanied by full material test reports (MTR).",
+                      "100% functional testing on safety-critical components.",
+                      "Real-time SPC statistical process control monitoring.",
+                      "Guaranteed warranty compliance across all operating cycles."
+                    ]
+                  }
+                },
+                "scalable-production": {
+                  "slug": "scalable-production",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Scalable",
+                  "title_orange": "Production",
+                  "hero_image": "/projects/2.webp",
+                  "hero_alt": "High volume automotive powertrain production facility",
+                  "intro": "Flexible manufacturing cells configured for rapid ramp-up from prototype tooling to hundreds of thousands of serialized components annually.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/scalable-1.webp",
+                      "alt": "High-velocity automated automotive transmission manufacturing line"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/scalable-2.webp",
+                      "alt": "Robotic material handling and multi-station conveyor cell"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Scalable Production",
+                    "description": "Whether you need small pilot batches or high-volume series manufacturing, our modular architecture adapts effortlessly.",
+                    "points": [
+                      "Modular CNC machining and stamping cells",
+                      "Rapid tooling changeover in under 20 minutes",
+                      "Just-In-Time (JIT) supplier integration",
+                      "Global supply chain redundancy",
+                      "Dedicated pilot run and prototyping cells",
+                      "Continuous OEE production line optimization"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "Systematic production scaling designed to meet surging automotive demand smoothly.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Line Balancing",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Pilot Verification",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Series Production",
+                        "icon": "shield"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Unwavering consistency across high-volume production batches.",
+                    "points": [
+                      "Guaranteed on-time delivery rate exceeding 99.4%.",
+                      "Rapid production scale-up without quality degradation.",
+                      "Transparent Kanban delivery tracking.",
+                      "Flexible volume adjustments aligned with market dynamics."
+                    ]
+                  }
+                },
+                "advanced-automation": {
+                  "slug": "advanced-automation",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Advanced",
+                  "title_orange": "Automation",
+                  "hero_image": "/projects/5.webp",
+                  "hero_alt": "Precision robotic handling and high speed automation cell",
+                  "intro": "Autonomous mobile robots (AMRs), collaborative cobots and IoT-connected production machinery delivering next-generation Industry 4.0 precision.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/auto-1.webp",
+                      "alt": "Smart robotic pick and place assembly line"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/auto-2.webp",
+                      "alt": "AI-assisted automated inspection and sorting"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Advanced Automation",
+                    "description": "Automation eliminates human variability while accelerating throughput and workplace safety across demanding operations.",
+                    "points": [
+                      "Autonomous robotic guided material delivery",
+                      "Collaborative robots for complex sub-assemblies",
+                      "Predictive maintenance with IoT vibration sensors",
+                      "Edge-AI automated optical sorting",
+                      "Digital production dashboards and live KPI tracking",
+                      "Reduced scrap rates below 0.08%"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "Integrated automation workflows synchronizing every machine tool across the shop floor.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "PLC Architecture",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Robotic Tooling",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Autonomous Run",
+                        "icon": "shield"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "24/7 lights-out production capability delivering unmatched cycle times and repeatability.",
+                    "points": [
+                      "Repeatable positioning accuracy within ±0.005mm.",
+                      "Maximum uptime backed by automated predictive alerts.",
+                      "Scalable automation recipes for diverse component models.",
+                      "Complete cyber-physical production logging."
+                    ]
+                  }
+                },
+                "end-to-end-capabilities": {
+                  "slug": "end-to-end-capabilities",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "End-to-End",
+                  "title_orange": "Capabilities",
+                  "hero_image": "/projects/6.webp",
+                  "hero_alt": "EV battery pack precision automated manufacturing and integration",
+                  "intro": "A single-source engineering partner: from initial CAD concept and rapid prototyping through tooling, serial manufacturing and testing.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/e2e-1.webp",
+                      "alt": "Electric vehicle battery module assembly"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/e2e-2.webp",
+                      "alt": "Cleanroom battery pack thermal management integration"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our End-to-End Capabilities",
+                    "description": "By controlling the full lifecycle in-house, Motrix delivers tighter tolerances, lower tooling costs and faster engineering change turnaround.",
+                    "points": [
+                      "Complete DFM (Design for Manufacturability) consulting",
+                      "In-house mould, jig and die manufacturing",
+                      "Full mechanical and electrical sub-assembly",
+                      "Automotive thermal and environmental stress testing",
+                      "Turnkey logistics and packaging solutions",
+                      "Dedicated program management team"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "A unified engineering journey from early concept sketching to serial vehicle production.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Concept & DFM",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Tooling & Prototyping",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Series Delivery",
+                        "icon": "shield"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Total accountability across the complete product journey with singular project ownership.",
+                    "points": [
+                      "Guaranteed single-point contact from kickoff to volume production.",
+                      "Transparent milestone tracking with zero hidden tooling costs.",
+                      "Full intellectual property protection and confidentiality.",
+                      "Reliable series production backed by turnkey global fulfillment."
+                    ]
+                  }
+                },
+                "automotive-structure": {
+                  "slug": "advanced-manufacturing",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Advanced",
+                  "title_orange": "Manufacturing",
+                  "hero_image": "/projects/1.webp",
+                  "hero_alt": "Robotic welding automation on automotive vehicle body in white",
+                  "intro": "Pioneering robotic automation, laser welding and multi-material body assembly for lightweight and ultra-rigid vehicular structures.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/adv-mfg-1.webp",
+                      "alt": "Advanced robotic welding arms assembling chassis frame"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/adv-mfg-2.webp",
+                      "alt": "Smart automated assembly cell for body in white structures"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Advanced Manufacturing",
+                    "description": "Our smart robotic facilities combine speed, repeatable micron-level accuracy and sustainable production practices for global automotive leaders.",
+                    "points": [
+                      "Automated robotic spot and laser welding",
+                      "Lightweight multi-material bonding",
+                      "High throughput production lines",
+                      "Comprehensive structural fatigue testing",
+                      "Seamless CAD/CAM digital twin integration",
+                      "Zero-defect ISO 9001 certified protocols"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "From robotic fixture design to laser inspection, every assembly undergoes precision verification.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Tooling & Fixtures",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Robotic Assembly",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Laser Metrology",
+                        "icon": "clipboard"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Engineered for maximum crashworthiness, optimal vehicle dynamics and rapid time-to-market.",
+                    "points": [
+                      "Micron-accurate dimensional tolerances across complex assemblies.",
+                      "100% non-destructive weld seam inspection.",
+                      "Lean manufacturing principles reducing lead time by 35%.",
+                      "Full compliance with international automotive crash safety standards."
+                    ]
+                  }
+                },
+                "powertrain-solutions": {
+                  "slug": "scalable-production",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Scalable",
+                  "title_orange": "Production",
+                  "hero_image": "/projects/2.webp",
+                  "hero_alt": "High volume automotive powertrain production facility",
+                  "intro": "Flexible manufacturing cells configured for rapid ramp-up from prototype tooling to hundreds of thousands of serialized components annually.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/scalable-1.webp",
+                      "alt": "High-velocity automated automotive transmission manufacturing line"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/scalable-2.webp",
+                      "alt": "Robotic material handling and multi-station conveyor cell"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Scalable Production",
+                    "description": "Whether you need small pilot batches or high-volume series manufacturing, our modular architecture adapts effortlessly.",
+                    "points": [
+                      "Modular CNC machining and stamping cells",
+                      "Rapid tooling changeover in under 20 minutes",
+                      "Just-In-Time (JIT) supplier integration",
+                      "Global supply chain redundancy",
+                      "Dedicated pilot run and prototyping cells",
+                      "Continuous OEE production line optimization"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "Systematic production scaling designed to meet surging automotive demand smoothly.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Line Balancing",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Pilot Verification",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Series Ramp-up",
+                        "icon": "clipboard"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Unwavering consistency across high-volume production batches.",
+                    "points": [
+                      "Guaranteed on-time delivery rate exceeding 99.4%.",
+                      "Rapid production scale-up without quality degradation.",
+                      "Transparent Kanban delivery tracking.",
+                      "Flexible volume adjustments aligned with market dynamics."
+                    ]
+                  }
+                },
+                "safety-performance": {
+                  "slug": "quality-assurance",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Quality",
+                  "title_orange": "Assurance",
+                  "hero_image": "/projects/3.webp",
+                  "hero_alt": "Braking system precision metrology and quality inspection",
+                  "intro": "World-class coordinate measuring machines (CMM), optical scanning and non-destructive testing ensuring zero defects in mission-critical automotive systems.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/qa-1.webp",
+                      "alt": "CMM 3D coordinate inspection probe with laser scanning measurement"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/qa-2.webp",
+                      "alt": "Automotive optical surface roughness and micro-tolerance inspection"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Quality Assurance",
+                    "description": "Every component that leaves our facility has been thoroughly verified against demanding OEM specifications.",
+                    "points": [
+                      "Sub-micron 3D CMM coordinate inspection",
+                      "High-frequency eddy current crack detection",
+                      "Automated optical defect recognition",
+                      "Dynamic balance and vibration analysis",
+                      "Complete traceability via serialized laser QR codes",
+                      "IATF 16949 compliant quality assurance system"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "A multi-barrier quality gate methodology that catches anomalies before assembly.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Raw Material Audit",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "In-Process Gauging",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "3D CMM Verification",
+                        "icon": "clipboard"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Zero-defect delivery backed by comprehensive test certificates and lot traceability.",
+                    "points": [
+                      "Every batch accompanied by full material test reports (MTR).",
+                      "100% functional testing on safety-critical components.",
+                      "Real-time SPC statistical process control monitoring.",
+                      "Guaranteed warranty compliance across all operating cycles."
+                    ]
+                  }
+                },
+                "precision-engineered-parts": {
+                  "slug": "precision-engineering",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Precision",
+                  "title_orange": "Engineering",
+                  "hero_image": "/manufacturing-capabilities/hero.webp",
+                  "hero_alt": "Precision CNC milling center actively machining complex aluminium automotive component",
+                  "intro": "We deliver high-accuracy machining and quality control systems for components that meet global standards. Our precision engineering capabilities ensure consistent quality, tight tolerances and superior performance across industries.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/mid-1.webp",
+                      "alt": "High precision machined aluminium engine and transmission casing components"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/mid-2.webp",
+                      "alt": "Inside a high-speed CNC lathe turning machine precision machining steel drive shaft"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Precision Engineering",
+                    "description": "Our precision engineering processes are designed to deliver reliable, high-quality components with exceptional accuracy. We combine advanced machinery, skilled expertise and strict quality controls to ensure every part performs to the highest standards.",
+                    "points": [
+                      "High-accuracy machining",
+                      "Consistent quality output",
+                      "Tight tolerances and precision control",
+                      "Advanced measurement systems",
+                      "Wide material compatibility",
+                      "Components that meet global standards"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "From design to final production, we follow a structured process to ensure precision, quality and efficiency at every stage.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Design & Engineering",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Precision Machining",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Quality Inspection",
+                        "icon": "clipboard"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Our commitment to precision engineering means every component is manufactured with accuracy, durability and performance in mind. We adhere to strict quality standards and continuous improvement to deliver components you can rely on.",
+                    "points": [
+                      "All components are manufactured with high precision and tight tolerances.",
+                      "Rigorous quality checks at every stage of production.",
+                      "Advanced equipment and skilled experts ensure consistent output.",
+                      "Delivering reliable components that meet global industry standards."
+                    ]
+                  }
+                },
+                "cnc-machining": {
+                  "slug": "advanced-automation",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "Advanced",
+                  "title_orange": "Automation",
+                  "hero_image": "/projects/5.webp",
+                  "hero_alt": "Precision robotic handling and high speed automation cell",
+                  "intro": "Autonomous mobile robots (AMRs), collaborative cobots and IoT-connected production machinery delivering next-generation Industry 4.0 precision.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/auto-1.webp",
+                      "alt": "Smart robotic pick and place assembly line"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/auto-2.webp",
+                      "alt": "AI-assisted automated inspection and sorting"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our Advanced Automation",
+                    "description": "Automation eliminates human variability while accelerating throughput and workplace safety across demanding operations.",
+                    "points": [
+                      "Autonomous robotic guided material delivery",
+                      "Collaborative robots for complex sub-assemblies",
+                      "Predictive maintenance with IoT vibration sensors",
+                      "Edge-AI automated optical sorting",
+                      "Digital production dashboards and live KPI tracking",
+                      "Reduced scrap rates below 0.08%"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "Integrated automation workflows synchronizing every machine tool across the shop floor.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "PLC Architecture",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Robotic Tooling",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "IoT Integration",
+                        "icon": "clipboard"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "24/7 lights-out production capability delivering unmatched cycle times and repeatability.",
+                    "points": [
+                      "Repeatable positioning accuracy within ±0.005mm.",
+                      "Maximum uptime backed by automated predictive alerts.",
+                      "Scalable automation recipes for diverse component models.",
+                      "Complete cyber-physical production logging."
+                    ]
+                  }
+                },
+                "ev-battery": {
+                  "slug": "end-to-end-capabilities",
+                  "eyebrow": "MANUFACTURING & CAPABILITIES",
+                  "title_black": "End-to-End",
+                  "title_orange": "Capabilities",
+                  "hero_image": "/projects/6.webp",
+                  "hero_alt": "EV battery pack precision automated manufacturing and integration",
+                  "intro": "A single-source engineering partner: from initial CAD concept and rapid prototyping through tooling, serial manufacturing and testing.",
+                  "mid_images": [
+                    {
+                      "image": "/manufacturing-capabilities/e2e-1.webp",
+                      "alt": "Electric vehicle battery module assembly"
+                    },
+                    {
+                      "image": "/manufacturing-capabilities/e2e-2.webp",
+                      "alt": "Cleanroom battery pack thermal management integration"
+                    }
+                  ],
+                  "why_choose": {
+                    "title": "Why Choose Our End-to-End Capabilities",
+                    "description": "By controlling the full lifecycle in-house, Motrix delivers tighter tolerances, lower tooling costs and faster engineering change turnaround.",
+                    "points": [
+                      "Complete DFM (Design for Manufacturability) consulting",
+                      "In-house mould, jig and die manufacturing",
+                      "Full mechanical and electrical sub-assembly",
+                      "Automotive thermal and environmental stress testing",
+                      "Turnkey logistics and packaging solutions",
+                      "Dedicated program management team"
+                    ]
+                  },
+                  "process": {
+                    "title_black": "Our",
+                    "title_orange": "Process",
+                    "subtitle": "A unified engineering journey from early concept sketching to serial vehicle production.",
+                    "steps": [
+                      {
+                        "number": "01",
+                        "title": "Concept & DFM",
+                        "icon": "gear"
+                      },
+                      {
+                        "number": "02",
+                        "title": "Tooling & Prototyping",
+                        "icon": "cube"
+                      },
+                      {
+                        "number": "03",
+                        "title": "Integrated Build",
+                        "icon": "clipboard"
+                      }
+                    ]
+                  },
+                  "guarantee": {
+                    "title": "We Guarantee to Deliver",
+                    "description": "Total accountability across the complete product journey with singular project ownership.",
+                    "points": [
+                      "Guaranteed single-point contact from kickoff to volume production.",
+                      "Transparent milestone tracking with zero hidden tooling costs.",
+                      "Full intellectual property protection and confidentiality.",
+                      "Reliable series production backed by turnkey global fulfillment."
+                    ]
+                  }
+                }
+              }
+            },
+            "projects": {
+              "eyebrow": "Our Work",
+              "title_bold": "Real Projects",
+              "title_light": [
+                "Real Progress"
+              ],
+              "description": "We work on advanced manufacturing projects that drive performance, efficiency and a more sustainable future for the mobility industry.",
+              "button_text": "View Our Work",
+              "button_link": "/manufacturing-capabilities",
+              "homepage_count": 4,
+              "items": [
+                {
+                  "id": "automotive-structure",
+                  "title": "Automotive Structure Components",
+                  "category": "Body In White",
+                  "subtext": "Body | Chassis | Frame",
+                  "image": "/projects/1.webp",
+                  "alt": "Orange robotic arm spot welding automotive vehicle structure components with sparks",
+                  "slug": "advanced-manufacturing"
+                },
+                {
+                  "id": "powertrain-solutions",
+                  "title": "Powertrain Solutions",
+                  "category": "Powertrain",
+                  "subtext": "Transmission | Drivetrain",
+                  "image": "/projects/2.webp",
+                  "alt": "Precision engineered automotive powertrain transmission casing and components",
+                  "slug": "scalable-production"
+                },
+                {
+                  "id": "safety-performance",
+                  "title": "Safety & Performance Components",
+                  "category": "Braking Systems",
+                  "subtext": "Braking | Suspension | Control Systems",
+                  "image": "/projects/3.webp",
+                  "alt": "Orange high performance brake caliper mounted on drilled ventilated rotor",
+                  "slug": "quality-assurance"
+                },
+                {
+                  "id": "precision-engineered-parts",
+                  "title": "Precision Engineered Parts",
+                  "category": "Gears & Shafts",
+                  "subtext": "Gears | Shafts | Custom Components",
+                  "image": "/projects/4.webp",
+                  "alt": "Precision machined interlocking steel gears and shafts for automotive drive systems",
+                  "slug": "precision-engineering"
+                },
+                {
+                  "id": "cnc-machining",
+                  "title": "High-Speed CNC Machining",
+                  "category": "Aluminium Parts",
+                  "subtext": "Milling | Turning | Rapid Tooling",
+                  "image": "/projects/5.webp",
+                  "alt": "High-speed CNC machine precision milling an aluminium automotive component",
+                  "slug": "advanced-automation"
+                },
+                {
+                  "id": "ev-battery",
+                  "title": "EV Battery Pack Assembly",
+                  "category": "Electric Mobility",
+                  "subtext": "Modules | Thermal Management | Pack Housing",
+                  "image": "/projects/6.webp",
+                  "alt": "Electric vehicle battery modules on automated precision assembly line",
+                  "slug": "end-to-end-capabilities"
+                }
+              ]
+            },
+            "products_solutions": {
+              "eyebrow": "Products & Solutions",
+              "title_bold": [
+                "Engineered",
+                "Solutions"
+              ],
+              "title_light": [
+                "For Every",
+                "Journey."
+              ],
+              "description": "We deliver advanced automotive products and engineered solutions that enhance performance, efficiency and reliability across a wide range of applications.",
+              "button_text": "Explore Products & Solutions",
+              "button_link": "/products-solutions",
+              "homepage_count": 3,
+              "items": [
+                {
+                  "id": "powertrain",
+                  "number": "01.",
+                  "title": "Powertrain Components",
+                  "description": "High-precision engine and drivetrain components designed for performance and durability.",
+                  "image": "/solutions/1.webp",
+                  "alt": "High-precision automotive powertrain engine and drivetrain assembly"
+                },
+                {
+                  "id": "chassis-safety",
+                  "number": "02.",
+                  "title": "Chassis & Safety Solutions",
+                  "description": "Reliable chassis, braking and suspension components for safer and smoother mobility.",
+                  "image": "/solutions/2.webp",
+                  "alt": "Orange high-performance brake caliper mounted on drilled disc rotor"
+                },
+                {
+                  "id": "precision-parts",
+                  "number": "03.",
+                  "title": "Precision Engineered Parts",
+                  "description": "Custom-engineered components for diverse automotive and industrial applications.",
+                  "image": "/solutions/3.webp",
+                  "alt": "Machined precision automotive transmission gears and shafts on machine bed"
+                },
+                {
+                  "id": "ev-systems",
+                  "number": "04.",
+                  "title": "EV Drive Systems",
+                  "description": "Electric motors, stators and battery integration for the next generation of electric vehicles.",
+                  "image": "/solutions/4.webp",
+                  "alt": "Electric vehicle motor stator and rotor subassembly"
+                }
+              ]
+            },
+            "blog": {
+              "eyebrow": "Our Blog",
+              "title_regular": "Latest Insights",
+              "title_highlight": "&",
+              "title_suffix": "Updates",
+              "description": "News, trends and engineering stories from the Motrix production floor.",
+              "read_more_text": "Read More",
+              "homepage_count": 4,
+              "per_page": 4,
+              "pagination": {
+                "label": "Blog pagination",
+                "prev_aria_label": "Previous page",
+                "next_aria_label": "Next page",
+                "page_aria_label": "Go to page",
+                "showing_text": "Showing {from}–{to} of {total} articles"
+              },
+              "posts": [
+                {
+                  "id": "1",
+                  "slug": "precision-manufacturing-in-modern-mobility",
+                  "title": "The Role of Precision Manufacturing in Modern Mobility",
+                  "category": "Manufacturing",
+                  "date": "28 Oct 2026",
+                  "image": "/blog/1.webp",
+                  "alt": "High precision CNC machining spark cutting automotive component",
+                  "excerpt": "Discover how precision manufacturing is shaping the next generation of high-performance and reliable mobility solutions."
+                },
+                {
+                  "id": "2",
+                  "slug": "advancements-in-electric-vehicle-components",
+                  "title": "Advancements in Electric Vehicle Components",
+                  "category": "Electric Mobility",
+                  "date": "22 Oct 2026",
+                  "image": "/blog/2.webp",
+                  "alt": "Advanced automotive powertrain engine block and serpentine pulleys assembly",
+                  "excerpt": "How next-generation components are driving the EV revolution."
+                },
+                {
+                  "id": "3",
+                  "slug": "innovations-in-vehicle-safety-systems",
+                  "title": "Innovations in Vehicle Safety Systems",
+                  "category": "Safety",
+                  "date": "18 Oct 2026",
+                  "image": "/blog/3.webp",
+                  "alt": "Alloy sports car wheel with glossy orange brake caliper and drilled rotor",
+                  "excerpt": "A look at the latest safety technologies enhancing road safety worldwide."
+                },
+                {
+                  "id": "4",
+                  "slug": "sustainable-materials-in-modern-vehicles",
+                  "title": "Sustainable Materials in Modern Vehicles",
+                  "category": "Sustainability",
+                  "date": "14 Oct 2026",
+                  "image": "/blog/4.webp",
+                  "alt": "Precision machined interlocking steel transmission gears and shafts",
+                  "excerpt": "How sustainable materials are transforming the automotive industry."
+                },
+                {
+                  "id": "5",
+                  "slug": "quality-control-in-precision-manufacturing",
+                  "title": "Quality Control in Precision Manufacturing",
+                  "category": "Quality",
+                  "date": "10 Oct 2026",
+                  "image": "/blog/5.webp",
+                  "alt": "Engineer measuring an automotive part with a digital caliper",
+                  "excerpt": "Why micron-level inspection and data-driven QC are essential for zero-defect production."
+                }
+              ]
+            },
+            "blog_detail": {
+              "author_prefix": "By",
+              "recent_posts_title": "Recent Posts",
+              "recent_posts_count": 4,
+              "back_text": "Back To Blog",
+              "back_link": "/blog",
+              "posts": {
+                "precision-manufacturing-in-modern-mobility": {
+                  "category": "MANUFACTURING",
+                  "date": "28 Oct 2026",
+                  "author": "By Admin",
+                  "read_time": "5 Min Read",
+                  "title": "The Role of Precision Manufacturing in Modern Mobility",
+                  "title_black": "The Role of Precision",
+                  "title_orange": "Manufacturing in Modern Mobility",
+                  "hero_image": "/blog/1.webp",
+                  "hero_alt": "High precision CNC machining spark cutting automotive component",
+                  "intro": "Precision manufacturing plays a critical role in shaping the future of modern mobility. From electric vehicles to advanced engineering systems, high-precision components ensure better performance, safety and long-term reliability. As the mobility industry evolves, the demand for accurate, efficient and high-quality manufacturing continues to grow.",
+                  "sections": [
+                    {
+                      "title_black": "Driving Innovation",
+                      "title_orange": "Through Precision",
+                      "paragraph": "With the rise of electric and connected vehicles, manufacturers need components that meet strict quality standards and complex design requirements. Precision manufacturing ensures every part is produced with accuracy, consistency and durability, enabling the next generation of mobility solutions.",
+                      "image": "/manufacturing-capabilities/adv-mfg-2.webp",
+                      "image_alt": "Automated robotic arms welding automotive vehicle frame"
+                    },
+                    {
+                      "title_black": "Enhancing Performance",
+                      "title_orange": "and Reliability",
+                      "paragraph": "High-precision components contribute to improved vehicle performance, better energy efficiency and reduced maintenance requirements. Whether it's powertrain components, structural parts or safety systems, precision engineering helps deliver the quality and reliability modern mobility demands.",
+                      "image": "/manufacturing-capabilities/scalable-1.webp",
+                      "image_alt": "Precision manufactured automotive transmission gears and assembly"
+                    },
+                    {
+                      "title_black": "Supporting a",
+                      "title_orange": "Sustainable Future",
+                      "paragraph": "Precision manufacturing also plays a key role in building a more sustainable mobility ecosystem. By enabling lightweight designs, reducing material waste and improving energy efficiency, it supports the development of cleaner and greener transportation solutions."
+                    }
+                  ]
+                },
+                "advancements-in-electric-vehicle-components": {
+                  "category": "ELECTRIC MOBILITY",
+                  "date": "22 Oct 2026",
+                  "author": "By Admin",
+                  "read_time": "6 Min Read",
+                  "title": "Advancements in Electric Vehicle Components",
+                  "title_black": "Advancements in Electric",
+                  "title_orange": "Vehicle Components",
+                  "hero_image": "/blog/2.webp",
+                  "hero_alt": "Electric vehicle powertrain motor and high-voltage electronics",
+                  "intro": "The global transition to electrification has accelerated innovation across every layer of vehicle component engineering. From next-generation battery architectures to ultra-efficient traction motors, electric vehicles demand unprecedented thermal and structural precision.",
+                  "sections": [
+                    {
+                      "title_black": "Next-Gen Battery Pack",
+                      "title_orange": "Architecture",
+                      "paragraph": "High-density battery enclosures require advanced thermal management and crash-resistant structural casings. Automated robotic integration guarantees cell isolation and long-term reliability in varying climate conditions.",
+                      "image": "/projects/6.webp",
+                      "image_alt": "Electric vehicle battery modules on automated precision assembly line"
+                    },
+                    {
+                      "title_black": "High-Efficiency Inverters",
+                      "title_orange": "and Drive Units",
+                      "paragraph": "Silicon carbide power modules and compact drive units deliver faster switching speeds with minimal thermal loss, allowing modern electric drivetrains to achieve extended range and rapid acceleration.",
+                      "image": "/manufacturing-capabilities/e2e-1.webp",
+                      "image_alt": "Precision automotive electronic control and inverter systems"
+                    },
+                    {
+                      "title_black": "Lightweight Structural",
+                      "title_orange": "Integration",
+                      "paragraph": "By consolidating multiple structural components into single cast aluminium sub-frames, EV manufacturers reduce curb weight while enhancing chassis rigidity and overall vehicle dynamics."
+                    }
+                  ]
+                },
+                "innovations-in-vehicle-safety-systems": {
+                  "category": "SAFETY & SYSTEMS",
+                  "date": "18 Oct 2026",
+                  "author": "By Admin",
+                  "read_time": "5 Min Read",
+                  "title": "Innovations in Vehicle Safety Systems",
+                  "title_black": "Innovations in Vehicle",
+                  "title_orange": "Safety Systems",
+                  "hero_image": "/blog/3.webp",
+                  "hero_alt": "Automotive ventilated disc brake system and orange performance caliper",
+                  "intro": "Modern vehicle safety systems integrate active electronic controls with fail-safe mechanical hardware. Ensuring instantaneous response times and structural integrity under emergency braking is paramount for passenger security.",
+                  "sections": [
+                    {
+                      "title_black": "High-Performance",
+                      "title_orange": "Braking Calipers",
+                      "paragraph": "Monobloc aluminium brake calipers paired with cross-drilled ventilated discs provide consistent thermal dissipation and rapid heat rejection, preventing brake fade during aggressive deceleration.",
+                      "image": "/projects/3.webp",
+                      "image_alt": "High-performance orange brake caliper and ventilated disc rotor"
+                    },
+                    {
+                      "title_black": "Active Chassis and",
+                      "title_orange": "Stability Control",
+                      "paragraph": "Real-time wheel-speed sensors and electromechanical actuators coordinate torque vectoring and electronic stability programs to maintain traction across slippery and uneven surfaces.",
+                      "image": "/manufacturing-capabilities/qa-2.webp",
+                      "image_alt": "Automotive safety components undergoing coordinate laser metrology"
+                    },
+                    {
+                      "title_black": "Rigorous Quality",
+                      "title_orange": "and Impact Testing",
+                      "paragraph": "Every safety-critical casting undergoes automated non-destructive testing, acoustic resonance inspection, and high-frequency fatigue simulations to ensure zero defects."
+                    }
+                  ]
+                },
+                "sustainable-materials-in-modern-vehicles": {
+                  "category": "SUSTAINABLE MATERIALS",
+                  "date": "14 Oct 2026",
+                  "author": "By Admin",
+                  "read_time": "4 Min Read",
+                  "title": "Sustainable Materials in Modern Vehicles",
+                  "title_black": "Sustainable Materials in",
+                  "title_orange": "Modern Vehicles",
+                  "hero_image": "/blog/4.webp",
+                  "hero_alt": "Lightweight carbon fibre composite automotive chassis structure",
+                  "intro": "Reducing carbon footprint across automotive lifecycles requires innovative materials engineering. Lightweight carbon composites, recycled aluminium alloys, and bio-based polymers are transforming structural vehicle design.",
+                  "sections": [
+                    {
+                      "title_black": "Aerospace-Grade",
+                      "title_orange": "Aluminium Alloys",
+                      "paragraph": "Closed-loop recycled aluminium provides equivalent structural yield strength to virgin alloy while reducing manufacturing energy consumption by up to 85% across vehicle crash-boxes and body panels.",
+                      "image": "/manufacturing-capabilities/scalable-2.webp",
+                      "image_alt": "Precision die-cast automotive alloy components"
+                    },
+                    {
+                      "title_black": "Advanced Carbon",
+                      "title_orange": "Composites",
+                      "paragraph": "Resin transfer molding allows rapid series production of carbon-fiber reinforced components, delivering extreme stiffness-to-weight ratios for high-stress vehicle structural members.",
+                      "image": "/manufacturing-capabilities/adv-mfg-1.webp",
+                      "image_alt": "Robotic positioning of lightweight automotive structural components"
+                    },
+                    {
+                      "title_black": "Circular Economy and",
+                      "title_orange": "Recyclability",
+                      "paragraph": "Designing modular automotive assemblies with standardized dismounting points simplifies end-of-life recycling and circular material recovery."
+                    }
+                  ]
+                },
+                "quality-control-in-precision-manufacturing": {
+                  "category": "QUALITY ASSURANCE",
+                  "date": "10 Oct 2026",
+                  "author": "By Admin",
+                  "read_time": "6 Min Read",
+                  "title": "Quality Control in Precision Manufacturing",
+                  "title_black": "Quality Control in",
+                  "title_orange": "Precision Manufacturing",
+                  "hero_image": "/blog/5.webp",
+                  "hero_alt": "Automotive engine block laser metrology and coordinate measuring machine",
+                  "intro": "In mission-critical automotive component manufacturing, zero defect tolerance is not a goal—it is a baseline requirement. Modern quality assurance integrates laser metrology, digital twins, and statistical process control.",
+                  "sections": [
+                    {
+                      "title_black": "Sub-Micron Laser",
+                      "title_orange": "Scanning",
+                      "paragraph": "Multi-sensor Coordinate Measuring Machines (CMM) and blue-light 3D optical scanners verify intricate engine geometries and gear tooth profiles against CAD models in real time.",
+                      "image": "/manufacturing-capabilities/qa-1.webp",
+                      "image_alt": "Coordinate measuring machine probe inspecting precision machined automotive component"
+                    },
+                    {
+                      "title_black": "Automated In-Line",
+                      "title_orange": "Inspection",
+                      "paragraph": "High-speed machine vision systems inspect surface finishes, chamfer angles, and bore concentricity on production lines without slowing throughput cycles.",
+                      "image": "/projects/5.webp",
+                      "image_alt": "High-speed CNC machine precision machining automotive structural parts"
+                    },
+                    {
+                      "title_black": "Traceability and",
+                      "title_orange": "Compliance",
+                      "paragraph": "Direct Part Marking (DPM) using high-resolution laser etching embeds full provenance data on every part, ensuring complete traceability across global automotive supply chains."
+                    }
+                  ]
+                }
+              }
+            },
+            "contact": {
+              "eyebrow": "CONTACT US",
+              "title_black": "Let's Talk About",
+              "title_orange": "Your Requirements.",
+              "title_bold": "Let's Talk About",
+              "title_light": [
+                "Your Requirements."
+              ],
+              "description": "Share your requirements with us and our team will get back to you with the right solutions for your manufacturing and mobility needs.",
+              "image": "/contact/engineers.webp",
+              "image_alt": "Two Motrix automotive engineers collaborating on a digital tablet in robotics manufacturing plant",
+              "help_badge": {
+                "label": "HAVE A QUESTION?",
+                "phone": "+100000000000",
+                "phone_href": "tel:+100000000000"
+              },
+              "form": {
+                "eyebrow": "SEND US A MESSAGE",
+                "title_black": "Request a",
+                "title_orange": "Quote",
+                "title": "Request a Quote",
+                "subtitle": "Fill out the form and our team will get back to you with the right solutions for your project requirements.",
+                "name_placeholder": "Your Name *",
+                "company_placeholder": "Company Name",
+                "email_placeholder": "Email Address *",
+                "phone_placeholder": "Phone Number *",
+                "interest_placeholder": "Product / Solution of Interest",
+                "interest_options": [
+                  "Advanced Manufacturing",
+                  "Precision Engineering",
+                  "Quality Assurance",
+                  "Scalable Production",
+                  "Advanced Automation",
+                  "End-to-End Capabilities",
+                  "Powertrain Components",
+                  "Chassis & Safety Solutions",
+                  "EV Drive Systems"
+                ],
+                "message_placeholder": "Your Message / Requirements *",
+                "submit_text": "Enquire Now →",
+                "submitting_text": "Sending...",
+                "success_message": "Thank you! Your request has been sent. Our team will contact you shortly."
+              },
+              "info_cards": [
+                {
+                  "id": "address",
+                  "icon": "map-pin",
+                  "label": "OUR ADDRESS",
+                  "title": "OUR ADDRESS",
+                  "lines": [
+                    "123 Education Lane,",
+                    "New York, NY 10001"
+                  ]
+                },
+                {
+                  "id": "phone",
+                  "icon": "phone",
+                  "label": "CALL US",
+                  "title": "CALL US",
+                  "lines": [
+                    "+100000000000"
+                  ],
+                  "href": "tel:+100000000000"
+                },
+                {
+                  "id": "email",
+                  "icon": "mail",
+                  "label": "EMAIL US",
+                  "title": "EMAIL US",
+                  "lines": [
+                    "info@xyz.com"
+                  ],
+                  "href": "mailto:info@xyz.com"
+                }
+              ],
+              "map": {
+                "title": "Motrix Location Map",
+                "embed_url": "https://maps.google.com/maps?q=123%20Education%20Lane,%20New%20York,%20NY%2010001&t=&z=14&ie=UTF8&iwloc=&output=embed",
+                "card": {
+                  "title": "Motrix",
+                  "address": "123 Education Lane, New York, NY 10001",
+                  "directions_text": "Directions",
+                  "directions_url": "https://maps.google.com/?q=123+Education+Lane,+New+York,+NY+10001",
+                  "rating_text": "5.0 ★★★★★ (48)",
+                  "view_larger_text": "View larger map"
+                }
+              }
+            },
+            "enquire_now": {
+              "eyebrow": "ENQUIRE NOW",
+              "title_black": "Let's Discuss",
+              "title_orange": "Your Requirements.",
+              "description": "Share your requirements with us and our team will get back to you with the right solutions for your business needs.",
+              "form": {
+                "name_placeholder": "Your Name *",
+                "company_placeholder": "Company Name",
+                "email_placeholder": "Email Address *",
+                "phone_placeholder": "Phone Number *",
+                "interest_placeholder": "Product / Solution of Interest",
+                "interest_options": [
+                  "Advanced Manufacturing",
+                  "Precision Engineering",
+                  "Quality Assurance",
+                  "Scalable Production",
+                  "Advanced Automation",
+                  "End-to-End Capabilities",
+                  "Powertrain Components",
+                  "Chassis & Safety Solutions",
+                  "EV Drive Systems"
+                ],
+                "message_placeholder": "Your Message / Requirements *",
+                "submit_text": "Enquire Now →",
+                "submitting_text": "Sending...",
+                "success_message": "Thank you! Your enquiry has been received. Our team will contact you shortly."
+              },
+              "why_enquire": {
+                "eyebrow": "WHY ENQUIRE WITH MOTRIX",
+                "title_black": "From Requirements",
+                "title_prefix": "to",
+                "title_orange": "Real Solutions.",
+                "description": "Whether you need standard products or customized solutions, our team is ready to understand your requirements and provide the best fit for your application.",
+                "steps": [
+                  {
+                    "step": "01",
+                    "title": "Expert Consultation",
+                    "description": "Our team understands your requirements and recommends the right solutions."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Tailored Solutions",
+                    "description": "Support for standard, customized and complex manufacturing needs."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Quick Response",
+                    "description": "We get back to you with the right information and support, promptly."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
